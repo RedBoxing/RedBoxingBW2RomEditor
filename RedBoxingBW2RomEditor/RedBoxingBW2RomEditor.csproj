@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{88209A23-7C73-48DF-9B24-0115D9803AC0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RedBoxingBW2RomEditor</RootNamespace>
+    <AssemblyName>RedBoxingBW2RomEditor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions.cs" />
+    <Compile Include="BinaryStream.cs" />
+    <Compile Include="Compression\STLibraryCompression.cs" />
+    <Compile Include="Data\Furniture.cs" />
+    <Compile Include="Data\MapHeader.cs" />
+    <Compile Include="Data\NPC.cs" />
+    <Compile Include="Data\Overworld.cs" />
+    <Compile Include="Data\Trigger.cs" />
+    <Compile Include="Data\Warp.cs" />
+    <Compile Include="Exceptions\InputTooLargeException.cs" />
+    <Compile Include="Exceptions\NotEnoughDataException.cs" />
+    <Compile Include="Exceptions\SignatureNotCorrectException.cs" />
+    <Compile Include="Exceptions\StreamTooShortException.cs" />
+    <Compile Include="Exceptions\TooMuchInputException.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formats\CompressionFormat.cs" />
+    <Compile Include="Formats\Nitro\Huffman.cs" />
+    <Compile Include="Formats\Nitro\LZ10.cs" />
+    <Compile Include="Formats\Nitro\LZ11.cs" />
+    <Compile Include="Formats\Nitro\NitroCFormat.cs" />
+    <Compile Include="Formats\Nitro\RLE.cs" />
+    <Compile Include="Helper\BitsConverter.cs" />
+    <Compile Include="Helper\CRC.cs" />
+    <Compile Include="Images\Actions.cs" />
+    <Compile Include="Images\ImageBase.cs" />
+    <Compile Include="Images\PaletteBase.cs" />
+    <Compile Include="Nitro\FAT.cs" />
+    <Compile Include="Nitro\FNT.cs" />
+    <Compile Include="Nitro\NARC.cs" />
+    <Compile Include="Nitro\NDS.cs" />
+    <Compile Include="NewScriptCommand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewScriptCommand.Designer.cs">
+      <DependentUpon>NewScriptCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nitro\Overlay.cs" />
+    <Compile Include="Nitro\Structures.cs" />
+    <Compile Include="OverworldEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OverworldEditor.Designer.cs">
+      <DependentUpon>OverworldEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ReadText.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReadText.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RomInfo.cs" />
+    <Compile Include="ScriptEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScriptEditor.Designer.cs">
+      <DependentUpon>ScriptEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextEditor.Designer.cs">
+      <DependentUpon>TextEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\IOUtils.cs" />
+    <Compile Include="Utils\LNK.cs" />
+    <Compile Include="Utils\LZUtil.cs" />
+    <Compile Include="Utils\SimpleReversedPrioQueue.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewScriptCommand.resx">
+      <DependentUpon>NewScriptCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OverworldEditor.resx">
+      <DependentUpon>OverworldEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Resources\ReadText.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ReadText.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScriptEditor.resx">
+      <DependentUpon>ScriptEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextEditor.resx">
+      <DependentUpon>TextEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">  
+  <PropertyGroup>  
+    <TargetFrameworks>net5.0-windows</TargetFrameworks>  
+    <UseWindowsForms>true</UseWindowsForms>  
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>  
+    <AssemblyName>RedBoxingBW2RomEditorNet5</AssemblyName>  
+    <RootNamespace>RedBoxingBW2RomEditor</RootNamespace>  
+  </PropertyGroup>
+
+  <ItemGroup>  
+    <Compile Include="..\RedBoxingBW2RomEditor\**\*.cs" />  
+    <EmbeddedResource Include="..\RedBoxingBW2RomEditor\**\*.resx" />  
+  </ItemGroup>  
+</Project>  

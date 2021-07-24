@@ -1,0 +1,15 @@
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\obj\Debug\RedBoxingBW2RomEditor.csprojAssemblyReference.cache
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\obj\Debug\RedBoxingBW2RomEditor.Form1.resources
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\obj\Debug\RedBoxingBW2RomEditor.Properties.Resources.resources
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\obj\Debug\RedBoxingBW2RomEditor.ScriptEditor.resources
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\obj\Debug\RedBoxingBW2RomEditor.TextEditor.resources
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\obj\Debug\RedBoxingBW2RomEditor.csproj.GenerateResource.cache
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\obj\Debug\RedBoxingBW2RomEditor.csproj.CoreCompileInputs.cache
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\bin\Debug\RedBoxingBW2RomEditor.exe.config
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\bin\Debug\RedBoxingBW2RomEditor.exe
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\bin\Debug\RedBoxingBW2RomEditor.pdb
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\obj\Debug\RedBoxingBW2RomEditor.exe
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\obj\Debug\RedBoxingBW2RomEditor.pdb
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\obj\Debug\RedBoxingBW2RomEditor.NewScriptCommand.resources
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\obj\Debug\RedBoxingBW2RomEditor.OverworldEditor.resources
+C:\Users\thoma\OneDrive\Developpements\RedBoxingBW2RomEditor\RedBoxingBW2RomEditor\obj\Debug\RedBoxingBW2RomEditor.Resources.ReadText.resources

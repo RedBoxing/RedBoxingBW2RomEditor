@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBoxingBW2RomEditor", "RedBoxingBW2RomEditor\RedBoxingBW2RomEditor.csproj", "{88209A23-7C73-48DF-9B24-0115D9803AC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedBoxingBW2RomEditorNet5", "RedBoxingBW2RomEditorNet5\RedBoxingBW2RomEditorNet5.csproj", "{2CBEE0CB-ACD1-4D0A-B3FF-C2D29CE04E79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88209A23-7C73-48DF-9B24-0115D9803AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88209A23-7C73-48DF-9B24-0115D9803AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88209A23-7C73-48DF-9B24-0115D9803AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88209A23-7C73-48DF-9B24-0115D9803AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBEE0CB-ACD1-4D0A-B3FF-C2D29CE04E79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBEE0CB-ACD1-4D0A-B3FF-C2D29CE04E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBEE0CB-ACD1-4D0A-B3FF-C2D29CE04E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBEE0CB-ACD1-4D0A-B3FF-C2D29CE04E79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A79AB852-4881-4A04-97BA-4CA05E0AC991}
+	EndGlobalSection
+EndGlobal
